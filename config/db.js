@@ -30,4 +30,4 @@ const connectDB = async () => {
 };
 
 // Export the connection function to be used in server.js
-module.exports = connectDB;
+module.exports = {connectDB};

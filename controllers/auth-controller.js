@@ -1,5 +1,6 @@
-const User = require('../models/User');
+
 const { validationResult } = require('express-validator');
+const User = require('../models/user');
 
 /**
  * Register a new user
